@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20220913 17:14:35.183" rpa="false" schemaversion="3">
+<suite id="s1" name="Tc2" source="C:\Users\Sathi\PycharmProjects\TestingProject\TestCases\Tc2.robot">
+<test id="s1-t1" name="Google Search" line="11">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220913 17:14:35.821" level="INFO">Opening browser 'http://www.google.com' to base url 'Chrome'.</msg>
+<msg timestamp="20220913 17:14:35.821" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220913 17:14:35.821" level="FAIL">ValueError: http://www.google.com is not a supported browser.</msg>
+<status status="FAIL" starttime="20220913 17:14:35.820" endtime="20220913 17:14:35.919"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath://input[@class='gLFyf gsfi']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220913 17:14:35.932" endtime="20220913 17:14:35.932"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>robotframework</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220913 17:14:35.933" endtime="20220913 17:14:35.933"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>(//input[@name='btnK'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220913 17:14:35.933" endtime="20220913 17:14:35.933"/>
+</kw>
+<status status="FAIL" starttime="20220913 17:14:35.820" endtime="20220913 17:14:35.934">ValueError: http://www.google.com is not a supported browser.</status>
+</test>
+<status status="FAIL" starttime="20220913 17:14:35.185" endtime="20220913 17:14:35.935"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tc2">Tc2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
